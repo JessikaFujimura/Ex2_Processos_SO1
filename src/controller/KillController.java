@@ -51,7 +51,7 @@ public class KillController {
 		}
 		if(name.contains("Linux")){
 			pidProcess = "kill ";
-			nameProcess = "kill ";
+			nameProcess = "pkill ";
 		}
 		int pid = 0;
 		StringBuffer buffer = new StringBuffer();

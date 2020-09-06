@@ -10,8 +10,8 @@ public class Main {
 		String systemName = test.typeSystem();
 		test.listActiveProcess(systemName);
 		
-		String param = "";
-//		String param = "wordpad.exe";
+//		String param = "1939";
+		String param = "gnome-mines";
 		test.killProcess(systemName, param);
 
 	}
